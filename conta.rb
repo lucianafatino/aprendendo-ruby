@@ -1,3 +1,5 @@
+require_relative 'cliente'
+
 class Conta
     attr_reader :numero, :titular #Atributos apenas leitura
     attr_accessor :saldo #permite a escrita e leitura
